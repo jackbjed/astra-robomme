@@ -1,0 +1,229 @@
+{
+  "task": "InsertPeg",
+  "episode": 44,
+  "dataset": "test",
+  "goal": "watch the video carefully, then grasp the same end of the same peg you've picked before and insert it into the same side of the box",
+  "status": "success",
+  "success": true,
+  "end_reason": "env:success",
+  "harness_version": "waypoint_v2",
+  "api_model": "gpt-6-astra",
+  "started_utc": "2026-10-08T22:07:49+00:00",
+  "finished_utc": "2026-10-08T22:10:16+00:00",
+  "model_calls": 9,
+  "waypoints_executed": 9,
+  "sim_elapsed_steps": 609,
+  "steps": [
+    {
+      "action": [
+        -0.14,
+        -0.09,
+        0.12,
+        -3.1416,
+        0.0,
+        -0.85,
+        1.0
+      ],
+      "frames": 54,
+      "status": "ongoing",
+      "elapsed_steps": 440,
+      "tcp_after": [
+        -0.1505,
+        -0.0866,
+        0.1232,
+        -3.1444,
+        -0.0001,
+        -0.8493
+      ]
+    },
+    {
+      "action": [
+        -0.137,
+        -0.095,
+        0.014,
+        -3.1416,
+        0.0,
+        -0.56,
+        1.0
+      ],
+      "frames": 32,
+      "status": "ongoing",
+      "elapsed_steps": 472,
+      "tcp_after": [
+        -0.1407,
+        -0.0945,
+        0.0135,
+        -3.1391,
+        0.003,
+        -0.5644
+      ]
+    },
+    {
+      "action": [
+        -0.139,
+        -0.095,
+        0.0105,
+        -3.1416,
+        0.0,
+        -0.5644,
+        -1.0
+      ],
+      "frames": 11,
+      "status": "ongoing",
+      "elapsed_steps": 483,
+      "tcp_after": [
+        -0.1396,
+        -0.0948,
+        0.0107,
+        -3.1392,
+        0.0032,
+        -0.5644
+      ]
+    },
+    {
+      "action": [
+        -0.14,
+        -0.095,
+        0.18,
+        -3.1416,
+        0.0,
+        -1.25,
+        0.0
+      ],
+      "frames": 35,
+      "status": "ongoing",
+      "elapsed_steps": 518,
+      "tcp_after": [
+        -0.1422,
+        -0.0925,
+        0.1783,
+        -3.1351,
+        0.0032,
+        -1.2454
+      ]
+    },
+    {
+      "action": [
+        -0.12,
+        0.23,
+        0.16,
+        -3.1416,
+        0.0,
+        -1.25,
+        0.0
+      ],
+      "frames": 39,
+      "status": "ongoing",
+      "elapsed_steps": 557,
+      "tcp_after": [
+        -0.133,
+        0.2344,
+        0.1594,
+        -3.1409,
+        0.004,
+        -1.2489
+      ]
+    },
+    {
+      "action": [
+        -0.109,
+        0.189,
+        0.041,
+        -3.1416,
+        0.0,
+        -1.25,
+        0.0
+      ],
+      "frames": 22,
+      "status": "ongoing",
+      "elapsed_steps": 579,
+      "tcp_after": [
+        -0.1146,
+        0.1875,
+        0.0432,
+        -3.1439,
+        0.0026,
+        -1.2491
+      ]
+    },
+    {
+      "action": [
+        -0.0995,
+        0.1818,
+        0.041,
+        -3.1416,
+        0.0,
+        -1.25,
+        0.0
+      ],
+      "frames": 9,
+      "status": "ongoing",
+      "elapsed_steps": 588,
+      "tcp_after": [
+        -0.1018,
+        0.1824,
+        0.0401,
+        -3.1442,
+        0.0025,
+        -1.2497
+      ]
+    },
+    {
+      "action": [
+        -0.0933,
+        0.1587,
+        0.0405,
+        -3.1416,
+        0.0,
+        -1.25,
+        0.0
+      ],
+      "frames": 9,
+      "status": "ongoing",
+      "elapsed_steps": 597,
+      "tcp_after": [
+        -0.0948,
+        0.1613,
+        0.0391,
+        -3.1445,
+        0.0023,
+        -1.2511
+      ]
+    },
+    {
+      "action": [
+        -0.0863,
+        0.1375,
+        0.04,
+        -3.1416,
+        0.0,
+        -1.25,
+        0.0
+      ],
+      "frames": 9,
+      "status": "success",
+      "elapsed_steps": 609,
+      "tcp_after": [
+        -0.0868,
+        0.1368,
+        0.0382,
+        -3.1449,
+        0.002,
+        -1.2528
+      ]
+    }
+  ],
+  "usage": {
+    "calls": 9,
+    "api_s": 138.36706924438477,
+    "retries": 0,
+    "input": 128303,
+    "cached": 108802,
+    "cache_write": 19474,
+    "output": 2903,
+    "reasoning": 2270,
+    "api_model": "gpt-6-astra"
+  },
+  "cost_usd": 0.4976,
+  "episode_s": 142.2
+}

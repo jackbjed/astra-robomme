@@ -1,0 +1,229 @@
+{
+  "task": "PickHighlight",
+  "episode": 41,
+  "dataset": "test",
+  "goal": "first press the button, then pick up all cubes that have been highlighteted with white areas on the table",
+  "status": "success",
+  "success": true,
+  "end_reason": "env:success",
+  "harness_version": "waypoint_v2",
+  "api_model": "gpt-6-astra",
+  "started_utc": "2026-10-08T22:59:59+00:00",
+  "finished_utc": "2026-10-08T23:01:08+00:00",
+  "model_calls": 9,
+  "waypoints_executed": 9,
+  "sim_elapsed_steps": 269,
+  "steps": [
+    {
+      "action": [
+        -0.157,
+        -0.185,
+        0.15,
+        -3.1416,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "frames": 54,
+      "status": "ongoing",
+      "elapsed_steps": 55,
+      "tcp_after": [
+        -0.172,
+        -0.1819,
+        0.1519,
+        -3.1449,
+        0.0027,
+        -0.0019
+      ]
+    },
+    {
+      "action": [
+        -0.156,
+        -0.185,
+        0.012,
+        -3.1416,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frames": 27,
+      "status": "ongoing",
+      "elapsed_steps": 82,
+      "tcp_after": [
+        -0.16,
+        -0.1892,
+        0.0247,
+        -3.1475,
+        -0.0125,
+        -0.0194
+      ]
+    },
+    {
+      "action": [
+        -0.157,
+        -0.185,
+        0.005,
+        -3.1416,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frames": 10,
+      "status": "ongoing",
+      "elapsed_steps": 92,
+      "tcp_after": [
+        -0.154,
+        -0.1954,
+        0.025,
+        -3.1488,
+        -0.0288,
+        -0.0243
+      ]
+    },
+    {
+      "action": [
+        -0.16,
+        -0.173,
+        0.009,
+        -3.1416,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frames": 7,
+      "status": "ongoing",
+      "elapsed_steps": 99,
+      "tcp_after": [
+        -0.1527,
+        -0.1958,
+        0.0265,
+        -3.159,
+        -0.0368,
+        -0.0308
+      ]
+    },
+    {
+      "action": [
+        -0.16,
+        -0.18,
+        0.16,
+        -3.1416,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frames": 32,
+      "status": "ongoing",
+      "elapsed_steps": 131,
+      "tcp_after": [
+        -0.1641,
+        -0.1797,
+        0.1572,
+        -3.1437,
+        -0.0015,
+        -0.0033
+      ]
+    },
+    {
+      "action": [
+        -0.17,
+        0.042,
+        0.13,
+        -3.1416,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frames": 36,
+      "status": "ongoing",
+      "elapsed_steps": 167,
+      "tcp_after": [
+        -0.1792,
+        0.0378,
+        0.1316,
+        -3.1446,
+        -0.0014,
+        0.001
+      ]
+    },
+    {
+      "action": [
+        -0.16,
+        0.04,
+        0.018,
+        -3.1416,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frames": 32,
+      "status": "ongoing",
+      "elapsed_steps": 199,
+      "tcp_after": [
+        -0.1648,
+        0.0404,
+        0.0186,
+        -3.1446,
+        0.0002,
+        0.001
+      ]
+    },
+    {
+      "action": [
+        -0.162,
+        0.04,
+        0.02,
+        -3.1416,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "frames": 9,
+      "status": "ongoing",
+      "elapsed_steps": 208,
+      "tcp_after": [
+        -0.1633,
+        0.0405,
+        0.0194,
+        -3.1445,
+        -0.0002,
+        0.0008
+      ]
+    },
+    {
+      "action": [
+        -0.162,
+        0.04,
+        0.2,
+        -3.1416,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frames": 36,
+      "status": "success",
+      "elapsed_steps": 269,
+      "tcp_after": [
+        -0.1686,
+        0.0397,
+        0.1995,
+        -3.1444,
+        0.0007,
+        0.0004
+      ]
+    }
+  ],
+  "usage": {
+    "calls": 9,
+    "api_s": 63.89902210235596,
+    "retries": 0,
+    "input": 56601,
+    "cached": 45697,
+    "cache_write": 10877,
+    "output": 1114,
+    "reasoning": 576,
+    "api_model": "gpt-6-astra"
+  },
+  "cost_usd": 0.2376,
+  "episode_s": 66.9
+}

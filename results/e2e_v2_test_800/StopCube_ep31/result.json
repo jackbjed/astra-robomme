@@ -1,0 +1,229 @@
+{
+  "task": "StopCube",
+  "episode": 31,
+  "dataset": "test",
+  "goal": "press the button to stop the cube just as it reaches the target for the third time",
+  "status": "success",
+  "success": true,
+  "end_reason": "env:success",
+  "harness_version": "waypoint_v2",
+  "api_model": "gpt-6-astra",
+  "started_utc": "2026-10-08T20:26:56+00:00",
+  "finished_utc": "2026-10-08T20:28:12+00:00",
+  "model_calls": 9,
+  "waypoints_executed": 9,
+  "sim_elapsed_steps": 213,
+  "steps": [
+    {
+      "action": [
+        -0.205,
+        0.1,
+        0.12,
+        -3.1416,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "frames": 58,
+      "status": "ongoing",
+      "elapsed_steps": 59,
+      "tcp_after": [
+        -0.2192,
+        0.0967,
+        0.1238,
+        -3.1406,
+        0.0018,
+        0.0001
+      ]
+    },
+    {
+      "action": [
+        -0.22,
+        0.1,
+        0.055,
+        -3.1416,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frames": 21,
+      "status": "ongoing",
+      "elapsed_steps": 80,
+      "tcp_after": [
+        -0.2227,
+        0.1002,
+        0.0548,
+        -3.1377,
+        0.0041,
+        0.0009
+      ]
+    },
+    {
+      "action": [
+        -0.22,
+        0.1,
+        0.085,
+        -3.1416,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frames": 13,
+      "status": "ongoing",
+      "elapsed_steps": 93,
+      "tcp_after": [
+        -0.2206,
+        0.0999,
+        0.083,
+        -3.1411,
+        -0.0009,
+        0.0004
+      ]
+    },
+    {
+      "action": [
+        -0.22,
+        0.1,
+        0.045,
+        -3.1416,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frames": 15,
+      "status": "ongoing",
+      "elapsed_steps": 108,
+      "tcp_after": [
+        -0.2218,
+        0.1,
+        0.0469,
+        -3.1405,
+        0.0009,
+        0.0008
+      ]
+    },
+    {
+      "action": [
+        -0.22,
+        0.1,
+        0.085,
+        -3.1416,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frames": 15,
+      "status": "ongoing",
+      "elapsed_steps": 123,
+      "tcp_after": [
+        -0.2208,
+        0.1001,
+        0.0827,
+        -3.1405,
+        -0.0003,
+        0.0017
+      ]
+    },
+    {
+      "action": [
+        -0.22,
+        0.1,
+        0.2,
+        -3.1416,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frames": 26,
+      "status": "ongoing",
+      "elapsed_steps": 149,
+      "tcp_after": [
+        -0.2239,
+        0.1017,
+        0.1986,
+        -3.1344,
+        -0.001,
+        0.0039
+      ]
+    },
+    {
+      "action": [
+        -0.22,
+        0.1,
+        0.045,
+        -3.1416,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frames": 31,
+      "status": "ongoing",
+      "elapsed_steps": 180,
+      "tcp_after": [
+        -0.2261,
+        0.101,
+        0.0457,
+        -3.1344,
+        0.003,
+        0.0023
+      ]
+    },
+    {
+      "action": [
+        -0.22,
+        0.1,
+        0.06,
+        -3.1416,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frames": 9,
+      "status": "ongoing",
+      "elapsed_steps": 189,
+      "tcp_after": [
+        -0.2208,
+        0.1001,
+        0.0583,
+        -3.1404,
+        -0.0003,
+        0.0002
+      ]
+    },
+    {
+      "action": [
+        -0.22,
+        0.1,
+        0.012,
+        -3.1416,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frames": 17,
+      "status": "success",
+      "elapsed_steps": 213,
+      "tcp_after": [
+        -0.2184,
+        0.1025,
+        0.0247,
+        -3.1383,
+        -0.0234,
+        0.0107
+      ]
+    }
+  ],
+  "usage": {
+    "calls": 9,
+    "api_s": 72.18156242370605,
+    "retries": 0,
+    "input": 55173,
+    "cached": 44867,
+    "cache_write": 10279,
+    "output": 1131,
+    "reasoning": 517,
+    "api_model": "gpt-6-astra"
+  },
+  "cost_usd": 0.2302,
+  "episode_s": 74.3
+}

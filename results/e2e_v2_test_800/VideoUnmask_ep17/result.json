@@ -1,0 +1,97 @@
+{
+  "task": "VideoUnmask",
+  "episode": 17,
+  "dataset": "test",
+  "goal": "watch the video carefully, then pick up the container hiding the green cube",
+  "status": "success",
+  "success": true,
+  "end_reason": "env:success",
+  "harness_version": "waypoint_v2",
+  "api_model": "gpt-6-astra",
+  "started_utc": "2026-10-08T21:12:47+00:00",
+  "finished_utc": "2026-10-08T21:13:15+00:00",
+  "model_calls": 3,
+  "waypoints_executed": 3,
+  "sim_elapsed_steps": 174,
+  "steps": [
+    {
+      "action": [
+        0.0,
+        0.06,
+        0.16,
+        -3.1416,
+        0.0,
+        0.7854,
+        1.0
+      ],
+      "frames": 44,
+      "status": "ongoing",
+      "elapsed_steps": 111,
+      "tcp_after": [
+        -0.0092,
+        0.0552,
+        0.1613,
+        -3.1362,
+        0.0003,
+        0.779
+      ]
+    },
+    {
+      "action": [
+        0.006,
+        0.058,
+        0.028,
+        -3.1416,
+        0.0,
+        0.7854,
+        -1.0
+      ],
+      "frames": 28,
+      "status": "ongoing",
+      "elapsed_steps": 139,
+      "tcp_after": [
+        0.0049,
+        0.0577,
+        0.0357,
+        -3.1483,
+        -0.0075,
+        0.7855
+      ]
+    },
+    {
+      "action": [
+        0.005,
+        0.058,
+        0.2,
+        -3.1416,
+        0.0,
+        0.7854,
+        0.0
+      ],
+      "frames": 25,
+      "status": "success",
+      "elapsed_steps": 174,
+      "tcp_after": [
+        -0.0009,
+        0.0579,
+        0.1988,
+        -3.1408,
+        0.0006,
+        0.7862
+      ]
+    }
+  ],
+  "usage": {
+    "calls": 3,
+    "api_s": 24.38912057876587,
+    "retries": 0,
+    "input": 14075,
+    "cached": 7875,
+    "cache_write": 6191,
+    "output": 605,
+    "reasoning": 401,
+    "api_model": "gpt-6-astra"
+  },
+  "cost_usd": 0.1156,
+  "episode_s": 25.9
+}

@@ -1,0 +1,35 @@
+{
+  "task": "SwingXtimes",
+  "episode": 6,
+  "dataset": "val",
+  "goal": "pick up the blue cube, move it to the top of the right-side target, then put it down on the left-side target, finally press the button to stop",
+  "status": "unparseable",
+  "success": false,
+  "end_reason": "model_answer:unparseable",
+  "harness_version": "waypoint_v3",
+  "api_model": "gpt-6-astra",
+  "started_utc": "2026-10-09T00:50:25+00:00",
+  "finished_utc": "2026-10-09T00:50:35+00:00",
+  "model_calls": 1,
+  "waypoints_executed": 0,
+  "sim_elapsed_steps": null,
+  "steps": [
+    {
+      "answer": "{\"description\":\"The blue cube is near the button, with the right-side target on the left of the front image. I will approach above the blue cube with the gripper open.\",\"waypoint\":[-0.18,0. seventeen,0.15,-3.1416,0,0],\"gripper\":1}",
+      "invalid_kind": "unparseable"
+    }
+  ],
+  "usage": {
+    "calls": 1,
+    "api_s": 8.41903042793274,
+    "retries": 0,
+    "input": 1283,
+    "cached": 0,
+    "cache_write": 1280,
+    "output": 226,
+    "reasoning": 153,
+    "api_model": "gpt-6-astra"
+  },
+  "cost_usd": 0.0273,
+  "episode_s": 8.7
+}

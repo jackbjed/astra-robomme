@@ -1,0 +1,119 @@
+{
+  "task": "PatternLock",
+  "episode": 46,
+  "dataset": "test",
+  "goal": "watch the video carefully, then use the stick attached to the robot to retrace the same pattern",
+  "status": "success",
+  "success": true,
+  "end_reason": "env:success",
+  "harness_version": "waypoint_v2",
+  "api_model": "gpt-6-astra",
+  "started_utc": "2026-10-08T22:15:29+00:00",
+  "finished_utc": "2026-10-08T22:16:20+00:00",
+  "model_calls": 4,
+  "waypoints_executed": 4,
+  "sim_elapsed_steps": 418,
+  "steps": [
+    {
+      "action": [
+        -0.0523,
+        -0.0498,
+        0.07,
+        -3.146,
+        0.0017,
+        -0.0011,
+        0.0
+      ],
+      "frames": 25,
+      "status": "ongoing",
+      "elapsed_steps": 326,
+      "tcp_after": [
+        -0.0568,
+        -0.0453,
+        0.0694,
+        -3.1433,
+        0.0012,
+        0.0013
+      ]
+    },
+    {
+      "action": [
+        0.0477,
+        -0.0498,
+        0.07,
+        -3.146,
+        0.0017,
+        -0.0011,
+        0.0
+      ],
+      "frames": 38,
+      "status": "ongoing",
+      "elapsed_steps": 364,
+      "tcp_after": [
+        0.046,
+        -0.0481,
+        0.0695,
+        -3.1427,
+        0.0012,
+        0.0018
+      ]
+    },
+    {
+      "action": [
+        0.0477,
+        0.0502,
+        0.07,
+        -3.146,
+        0.0017,
+        -0.0011,
+        0.0
+      ],
+      "frames": 22,
+      "status": "ongoing",
+      "elapsed_steps": 386,
+      "tcp_after": [
+        0.0442,
+        0.0548,
+        0.0702,
+        -3.1421,
+        0.0011,
+        0.0045
+      ]
+    },
+    {
+      "action": [
+        -0.0523,
+        0.1502,
+        0.07,
+        -3.146,
+        0.0017,
+        -0.0011,
+        0.0
+      ],
+      "frames": 29,
+      "status": "success",
+      "elapsed_steps": 418,
+      "tcp_after": [
+        -0.0549,
+        0.1473,
+        0.0696,
+        -3.1459,
+        0.0016,
+        0.0016
+      ]
+    }
+  ],
+  "usage": {
+    "calls": 4,
+    "api_s": 33.91692328453064,
+    "retries": 0,
+    "input": 28268,
+    "cached": 19323,
+    "cache_write": 8933,
+    "output": 618,
+    "reasoning": 302,
+    "api_model": "gpt-6-astra"
+  },
+  "cost_usd": 0.162,
+  "episode_s": 41.8
+}

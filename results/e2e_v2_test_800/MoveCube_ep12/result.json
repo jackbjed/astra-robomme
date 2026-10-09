@@ -1,0 +1,145 @@
+{
+  "task": "MoveCube",
+  "episode": 12,
+  "dataset": "test",
+  "goal": "watch the video carefully, then move the cube to the target in the same manner as before",
+  "status": "declared_complete",
+  "success": false,
+  "end_reason": "model_answer:declared_complete",
+  "harness_version": "waypoint_v2",
+  "api_model": "gpt-6-astra",
+  "started_utc": "2026-10-08T20:11:23+00:00",
+  "finished_utc": "2026-10-08T20:12:40+00:00",
+  "model_calls": 6,
+  "waypoints_executed": 5,
+  "sim_elapsed_steps": 360,
+  "steps": [
+    {
+      "action": [
+        0.129,
+        0.077,
+        0.105,
+        -3.1416,
+        0.0,
+        0.367,
+        -1.0
+      ],
+      "frames": 51,
+      "status": "ongoing",
+      "elapsed_steps": 266,
+      "tcp_after": [
+        0.1146,
+        0.0726,
+        0.099,
+        -3.137,
+        0.0017,
+        0.3646
+      ]
+    },
+    {
+      "action": [
+        0.13,
+        0.078,
+        0.022,
+        -3.1416,
+        0.0,
+        0.367,
+        0.0
+      ],
+      "frames": 19,
+      "status": "ongoing",
+      "elapsed_steps": 285,
+      "tcp_after": [
+        0.1266,
+        0.0755,
+        0.0197,
+        -3.1366,
+        0.0049,
+        0.3648
+      ]
+    },
+    {
+      "action": [
+        0.045,
+        0.045,
+        0.02,
+        -3.1416,
+        0.0,
+        0.367,
+        0.0
+      ],
+      "frames": 34,
+      "status": "ongoing",
+      "elapsed_steps": 319,
+      "tcp_after": [
+        0.0415,
+        0.0448,
+        0.0204,
+        -3.1415,
+        0.0,
+        0.3665
+      ]
+    },
+    {
+      "action": [
+        -0.007,
+        0.025,
+        0.02,
+        -3.1416,
+        0.0,
+        0.367,
+        0.0
+      ],
+      "frames": 19,
+      "status": "ongoing",
+      "elapsed_steps": 338,
+      "tcp_after": [
+        -0.0063,
+        0.0255,
+        0.0202,
+        -3.1415,
+        0.0001,
+        0.3659
+      ]
+    },
+    {
+      "action": [
+        0.037,
+        0.042,
+        0.14,
+        -3.1416,
+        0.0,
+        0.367,
+        0.0
+      ],
+      "frames": 22,
+      "status": "ongoing",
+      "elapsed_steps": 360,
+      "tcp_after": [
+        0.0329,
+        0.0415,
+        0.1408,
+        -3.1419,
+        -0.003,
+        0.3668
+      ]
+    },
+    {
+      "answer": "{\"description\":\"The cube is resting on the purple target after being pushed along the tabletop with the closed gripper, matching the demonstration.\",\"waypoint\":null,\"gripper\":0}",
+      "invalid_kind": "declared_complete"
+    }
+  ],
+  "usage": {
+    "calls": 6,
+    "api_s": 71.70004177093506,
+    "retries": 0,
+    "input": 57698,
+    "cached": 45196,
+    "cache_write": 12484,
+    "output": 834,
+    "reasoning": 450,
+    "api_model": "gpt-6-astra"
+  },
+  "cost_usd": 0.2431,
+  "episode_s": 73.8
+}

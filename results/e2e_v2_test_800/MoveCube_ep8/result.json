@@ -1,0 +1,211 @@
+{
+  "task": "MoveCube",
+  "episode": 8,
+  "dataset": "test",
+  "goal": "watch the video carefully, then move the cube to the target in the same manner as before",
+  "status": "declared_complete",
+  "success": false,
+  "end_reason": "model_answer:declared_complete",
+  "harness_version": "waypoint_v2",
+  "api_model": "gpt-6-astra",
+  "started_utc": "2026-10-08T20:02:56+00:00",
+  "finished_utc": "2026-10-08T20:05:32+00:00",
+  "model_calls": 9,
+  "waypoints_executed": 8,
+  "sim_elapsed_steps": 550,
+  "steps": [
+    {
+      "action": [
+        -0.089,
+        -0.179,
+        0.12,
+        -3.1416,
+        0.0,
+        -0.72,
+        1.0
+      ],
+      "frames": 49,
+      "status": "ongoing",
+      "elapsed_steps": 365,
+      "tcp_after": [
+        -0.0996,
+        -0.175,
+        0.1239,
+        -3.1497,
+        -0.0006,
+        -0.718
+      ]
+    },
+    {
+      "action": [
+        -0.0996,
+        -0.175,
+        0.014,
+        -3.1416,
+        0.0,
+        -0.72,
+        -1.0
+      ],
+      "frames": 27,
+      "status": "ongoing",
+      "elapsed_steps": 392,
+      "tcp_after": [
+        -0.1043,
+        -0.1743,
+        0.0153,
+        -3.1439,
+        0.003,
+        -0.7221
+      ]
+    },
+    {
+      "action": [
+        -0.104,
+        -0.174,
+        0.12,
+        -3.1416,
+        0.0,
+        -0.72,
+        0.0
+      ],
+      "frames": 21,
+      "status": "ongoing",
+      "elapsed_steps": 413,
+      "tcp_after": [
+        -0.107,
+        -0.1744,
+        0.1154,
+        -3.1424,
+        0.0022,
+        -0.7237
+      ]
+    },
+    {
+      "action": [
+        -0.192,
+        0.065,
+        0.1,
+        -3.1416,
+        0.0,
+        -1.3,
+        0.0
+      ],
+      "frames": 47,
+      "status": "ongoing",
+      "elapsed_steps": 460,
+      "tcp_after": [
+        -0.2038,
+        0.0637,
+        0.0995,
+        -3.1415,
+        0.0004,
+        -1.2979
+      ]
+    },
+    {
+      "action": [
+        -0.196,
+        0.065,
+        0.016,
+        -3.1416,
+        0.0,
+        -1.3,
+        0.0
+      ],
+      "frames": 22,
+      "status": "ongoing",
+      "elapsed_steps": 482,
+      "tcp_after": [
+        -0.1998,
+        0.0651,
+        0.0167,
+        -3.1439,
+        0.0003,
+        -1.2988
+      ]
+    },
+    {
+      "action": [
+        -0.1,
+        0.092,
+        0.016,
+        -3.1416,
+        0.0,
+        -1.3,
+        0.0
+      ],
+      "frames": 29,
+      "status": "ongoing",
+      "elapsed_steps": 511,
+      "tcp_after": [
+        -0.1009,
+        0.0928,
+        0.0155,
+        -3.1445,
+        -0.0006,
+        -1.2983
+      ]
+    },
+    {
+      "action": [
+        -0.041,
+        0.109,
+        0.016,
+        -3.1416,
+        0.0,
+        -1.3,
+        0.0
+      ],
+      "frames": 20,
+      "status": "ongoing",
+      "elapsed_steps": 531,
+      "tcp_after": [
+        -0.0441,
+        0.1094,
+        0.0146,
+        -3.1448,
+        -0.0008,
+        -1.2982
+      ]
+    },
+    {
+      "action": [
+        -0.05,
+        0.108,
+        0.105,
+        -3.1416,
+        0.0,
+        -1.3,
+        0.0
+      ],
+      "frames": 19,
+      "status": "ongoing",
+      "elapsed_steps": 550,
+      "tcp_after": [
+        -0.052,
+        0.1087,
+        0.0998,
+        -3.1429,
+        -0.0003,
+        -1.2986
+      ]
+    },
+    {
+      "answer": "{\"description\":\"The cube remains on the target after the bar was lifted away, completing the demonstrated tool-pushing motion.\",\"waypoint\":null,\"gripper\":0}",
+      "invalid_kind": "declared_complete"
+    }
+  ],
+  "usage": {
+    "calls": 9,
+    "api_s": 149.38567972183228,
+    "retries": 0,
+    "input": 131310,
+    "cached": 111799,
+    "cache_write": 19484,
+    "output": 1527,
+    "reasoning": 966,
+    "api_model": "gpt-6-astra"
+  },
+  "cost_usd": 0.432,
+  "episode_s": 152.8
+}

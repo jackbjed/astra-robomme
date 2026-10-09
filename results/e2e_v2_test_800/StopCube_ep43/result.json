@@ -1,0 +1,97 @@
+{
+  "task": "StopCube",
+  "episode": 43,
+  "dataset": "test",
+  "goal": "press the button to stop the cube just as it reaches the target for the second time",
+  "status": "success",
+  "success": true,
+  "end_reason": "env:success",
+  "harness_version": "waypoint_v2",
+  "api_model": "gpt-6-astra",
+  "started_utc": "2026-10-08T20:46:35+00:00",
+  "finished_utc": "2026-10-08T20:47:07+00:00",
+  "model_calls": 3,
+  "waypoints_executed": 3,
+  "sim_elapsed_steps": 101,
+  "steps": [
+    {
+      "action": [
+        -0.16,
+        0.12,
+        0.12,
+        -3.1416,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "frames": 58,
+      "status": "ongoing",
+      "elapsed_steps": 59,
+      "tcp_after": [
+        -0.1751,
+        0.118,
+        0.1222,
+        -3.1384,
+        0.0016,
+        0.0009
+      ]
+    },
+    {
+      "action": [
+        -0.17,
+        0.124,
+        0.045,
+        -3.1416,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frames": 23,
+      "status": "ongoing",
+      "elapsed_steps": 82,
+      "tcp_after": [
+        -0.173,
+        0.1238,
+        0.0438,
+        -3.1372,
+        0.0034,
+        0.0019
+      ]
+    },
+    {
+      "action": [
+        -0.17,
+        0.124,
+        0.015,
+        -3.1416,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frames": 13,
+      "status": "success",
+      "elapsed_steps": 101,
+      "tcp_after": [
+        -0.1711,
+        0.1252,
+        0.025,
+        -3.1407,
+        -0.01,
+        0.001
+      ]
+    }
+  ],
+  "usage": {
+    "calls": 3,
+    "api_s": 28.347003698349,
+    "retries": 0,
+    "input": 9156,
+    "cached": 4538,
+    "cache_write": 4609,
+    "output": 627,
+    "reasoning": 414,
+    "api_model": "gpt-6-astra"
+  },
+  "cost_usd": 0.0936,
+  "episode_s": 31.1
+}

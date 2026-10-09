@@ -1,0 +1,57 @@
+{
+  "task": "ButtonUnmaskSwap",
+  "episode": 21,
+  "dataset": "test",
+  "goal": "first press both buttons on the table, then pick up the container hiding the green cube",
+  "status": "unparseable",
+  "success": false,
+  "end_reason": "model_answer:unparseable",
+  "harness_version": "waypoint_v2",
+  "api_model": "gpt-6-astra",
+  "started_utc": "2026-10-08T20:39:57+00:00",
+  "finished_utc": "2026-10-08T20:40:11+00:00",
+  "model_calls": 2,
+  "waypoints_executed": 1,
+  "sim_elapsed_steps": 60,
+  "steps": [
+    {
+      "action": [
+        -0.187,
+        -0.122,
+        0.065,
+        -3.1416,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "frames": 59,
+      "status": "ongoing",
+      "elapsed_steps": 60,
+      "tcp_after": [
+        -0.2035,
+        -0.1194,
+        0.0706,
+        -3.1469,
+        0.003,
+        -0.0016
+      ]
+    },
+    {
+      "answer": "{\"description\":\"Containers have covered the cubes; the middle container covers the green cube. I am above the left button and will lower the closed fingertips to press it.\",\"waypoint\":[-0. eighteen,-0.12,0.012,-3.1416,0,0],\"gripper\":0} rose to=all:final code? \n",
+      "invalid_kind": "unparseable"
+    }
+  ],
+  "usage": {
+    "calls": 2,
+    "api_s": 11.21252989768982,
+    "retries": 0,
+    "input": 4556,
+    "cached": 1196,
+    "cache_write": 3354,
+    "output": 275,
+    "reasoning": 132,
+    "api_model": "gpt-6-astra"
+  },
+  "cost_usd": 0.0569,
+  "episode_s": 12.5
+}

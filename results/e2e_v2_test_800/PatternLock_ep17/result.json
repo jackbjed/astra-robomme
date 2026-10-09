@@ -1,0 +1,75 @@
+{
+  "task": "PatternLock",
+  "episode": 17,
+  "dataset": "test",
+  "goal": "watch the video carefully, then use the stick attached to the robot to retrace the same pattern",
+  "status": "success",
+  "success": true,
+  "end_reason": "env:success",
+  "harness_version": "waypoint_v2",
+  "api_model": "gpt-6-astra",
+  "started_utc": "2026-10-08T21:56:10+00:00",
+  "finished_utc": "2026-10-08T21:56:32+00:00",
+  "model_calls": 2,
+  "waypoints_executed": 2,
+  "sim_elapsed_steps": 279,
+  "steps": [
+    {
+      "action": [
+        -0.1021,
+        -0.1006,
+        0.0686,
+        -3.1446,
+        0.0029,
+        -0.0016,
+        0.0
+      ],
+      "frames": 32,
+      "status": "ongoing",
+      "elapsed_steps": 241,
+      "tcp_after": [
+        -0.1019,
+        -0.0996,
+        0.0679,
+        -3.1439,
+        0.003,
+        -0.0016
+      ]
+    },
+    {
+      "action": [
+        -0.2021,
+        -0.0006,
+        0.0686,
+        -3.1446,
+        0.0029,
+        -0.0016,
+        0.0
+      ],
+      "frames": 33,
+      "status": "success",
+      "elapsed_steps": 279,
+      "tcp_after": [
+        -0.205,
+        -0.0038,
+        0.0674,
+        -3.1452,
+        0.003,
+        -0.0002
+      ]
+    }
+  ],
+  "usage": {
+    "calls": 2,
+    "api_s": 17.91257333755493,
+    "retries": 0,
+    "input": 7768,
+    "cached": 3062,
+    "cache_write": 4700,
+    "output": 442,
+    "reasoning": 289,
+    "api_model": "gpt-6-astra"
+  },
+  "cost_usd": 0.084,
+  "episode_s": 19.0
+}

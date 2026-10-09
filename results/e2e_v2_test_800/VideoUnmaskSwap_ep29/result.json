@@ -1,0 +1,229 @@
+{
+  "task": "VideoUnmaskSwap",
+  "episode": 29,
+  "dataset": "test",
+  "goal": "watch the video carefully, then pick up the container hiding the green cube, finally pick up another container hiding the blue cube",
+  "status": "success",
+  "success": true,
+  "end_reason": "env:success",
+  "harness_version": "waypoint_v2",
+  "api_model": "gpt-6-astra",
+  "started_utc": "2026-10-08T22:37:16+00:00",
+  "finished_utc": "2026-10-08T22:38:44+00:00",
+  "model_calls": 9,
+  "waypoints_executed": 9,
+  "sim_elapsed_steps": 412,
+  "steps": [
+    {
+      "action": [
+        -0.02,
+        0.0,
+        0.32,
+        -3.1416,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frames": 38,
+      "status": "ongoing",
+      "elapsed_steps": 153,
+      "tcp_after": [
+        -0.0276,
+        -0.0,
+        0.3188,
+        -3.1416,
+        0.0022,
+        -0.0
+      ]
+    },
+    {
+      "action": [
+        0.063,
+        0.035,
+        0.13,
+        -3.1416,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frames": 38,
+      "status": "ongoing",
+      "elapsed_steps": 191,
+      "tcp_after": [
+        0.0569,
+        0.0358,
+        0.1236,
+        -3.1403,
+        0.0041,
+        0.0001
+      ]
+    },
+    {
+      "action": [
+        0.05,
+        0.032,
+        0.025,
+        -3.1416,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "frames": 24,
+      "status": "ongoing",
+      "elapsed_steps": 215,
+      "tcp_after": [
+        0.0537,
+        0.0314,
+        0.0359,
+        -3.1402,
+        -0.0132,
+        -0.0006
+      ]
+    },
+    {
+      "action": [
+        0.05,
+        0.032,
+        0.19,
+        -3.1416,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frames": 29,
+      "status": "ongoing",
+      "elapsed_steps": 244,
+      "tcp_after": [
+        0.0442,
+        0.0319,
+        0.1909,
+        -3.1416,
+        0.0008,
+        0.0002
+      ]
+    },
+    {
+      "action": [
+        0.04,
+        0.21,
+        0.12,
+        -3.1416,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frames": 24,
+      "status": "ongoing",
+      "elapsed_steps": 268,
+      "tcp_after": [
+        0.0319,
+        0.2111,
+        0.118,
+        -3.1395,
+        0.0045,
+        0.0043
+      ]
+    },
+    {
+      "action": [
+        0.032,
+        0.21,
+        0.035,
+        -3.1416,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frames": 28,
+      "status": "ongoing",
+      "elapsed_steps": 296,
+      "tcp_after": [
+        0.0297,
+        0.2095,
+        0.0346,
+        -3.1411,
+        -0.0018,
+        0.0007
+      ]
+    },
+    {
+      "action": [
+        -0.115,
+        0.047,
+        0.15,
+        -3.1416,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frames": 43,
+      "status": "ongoing",
+      "elapsed_steps": 339,
+      "tcp_after": [
+        -0.1196,
+        0.0502,
+        0.1461,
+        -3.1409,
+        -0.0028,
+        -0.0023
+      ]
+    },
+    {
+      "action": [
+        -0.1,
+        0.045,
+        0.03,
+        -3.1416,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "frames": 34,
+      "status": "ongoing",
+      "elapsed_steps": 373,
+      "tcp_after": [
+        -0.0988,
+        0.0436,
+        0.0358,
+        -3.1402,
+        -0.0173,
+        -0.0018
+      ]
+    },
+    {
+      "action": [
+        -0.1,
+        0.045,
+        0.2,
+        -3.1416,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frames": 28,
+      "status": "success",
+      "elapsed_steps": 412,
+      "tcp_after": [
+        -0.106,
+        0.0449,
+        0.1989,
+        -3.1413,
+        0.0008,
+        0.0008
+      ]
+    }
+  ],
+  "usage": {
+    "calls": 9,
+    "api_s": 76.17465209960938,
+    "retries": 0,
+    "input": 88936,
+    "cached": 73569,
+    "cache_write": 15340,
+    "output": 1175,
+    "reasoning": 575,
+    "api_model": "gpt-6-astra"
+  },
+  "cost_usd": 0.3243,
+  "episode_s": 83.9
+}

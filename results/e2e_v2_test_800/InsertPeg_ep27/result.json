@@ -1,0 +1,273 @@
+{
+  "task": "InsertPeg",
+  "episode": 27,
+  "dataset": "test",
+  "goal": "watch the video carefully, then grasp the same end of the same peg you've picked before and insert it into the same side of the box",
+  "status": "success",
+  "success": true,
+  "end_reason": "env:success",
+  "harness_version": "waypoint_v2",
+  "api_model": "gpt-6-astra",
+  "started_utc": "2026-10-08T21:23:47+00:00",
+  "finished_utc": "2026-10-08T21:27:18+00:00",
+  "model_calls": 11,
+  "waypoints_executed": 11,
+  "sim_elapsed_steps": 625,
+  "steps": [
+    {
+      "action": [
+        -0.08,
+        0.25,
+        0.15,
+        -3.1416,
+        0.0,
+        0.08,
+        1.0
+      ],
+      "frames": 49,
+      "status": "ongoing",
+      "elapsed_steps": 430,
+      "tcp_after": [
+        -0.0966,
+        0.2481,
+        0.1513,
+        -3.1346,
+        0.004,
+        0.0835
+      ]
+    },
+    {
+      "action": [
+        -0.088,
+        0.252,
+        0.014,
+        -3.1416,
+        0.0,
+        0.0835,
+        -1.0
+      ],
+      "frames": 31,
+      "status": "ongoing",
+      "elapsed_steps": 461,
+      "tcp_after": [
+        -0.0935,
+        0.2505,
+        0.0128,
+        -3.1424,
+        0.003,
+        0.086
+      ]
+    },
+    {
+      "action": [
+        -0.092,
+        0.251,
+        0.17,
+        -3.1416,
+        0.0,
+        0.086,
+        0.0
+      ],
+      "frames": 25,
+      "status": "ongoing",
+      "elapsed_steps": 486,
+      "tcp_after": [
+        -0.0963,
+        0.2499,
+        0.1652,
+        -3.1424,
+        0.0008,
+        0.0887
+      ]
+    },
+    {
+      "action": [
+        0.091,
+        0.208,
+        0.18,
+        -3.1416,
+        0.0,
+        1.34,
+        0.0
+      ],
+      "frames": 51,
+      "status": "ongoing",
+      "elapsed_steps": 537,
+      "tcp_after": [
+        0.0928,
+        0.196,
+        0.1787,
+        -3.1407,
+        -0.0001,
+        1.3286
+      ]
+    },
+    {
+      "action": [
+        0.093,
+        0.195,
+        0.04,
+        -3.1416,
+        0.0,
+        1.34,
+        0.0
+      ],
+      "frames": 25,
+      "status": "ongoing",
+      "elapsed_steps": 562,
+      "tcp_after": [
+        0.087,
+        0.1947,
+        0.0372,
+        -3.1383,
+        0.001,
+        1.3426
+      ]
+    },
+    {
+      "action": [
+        0.078,
+        0.156,
+        0.04,
+        -3.1416,
+        0.0,
+        1.34,
+        0.0
+      ],
+      "frames": 14,
+      "status": "ongoing",
+      "elapsed_steps": 576,
+      "tcp_after": [
+        0.0775,
+        0.1592,
+        0.0372,
+        -3.1378,
+        0.0018,
+        1.3404
+      ]
+    },
+    {
+      "action": [
+        0.071,
+        0.132,
+        0.045,
+        -3.1416,
+        0.0,
+        1.34,
+        0.0
+      ],
+      "frames": 15,
+      "status": "ongoing",
+      "elapsed_steps": 591,
+      "tcp_after": [
+        0.0701,
+        0.1516,
+        0.0472,
+        -3.1448,
+        -0.0115,
+        1.3635
+      ]
+    },
+    {
+      "action": [
+        0.075,
+        0.132,
+        0.042,
+        -3.1416,
+        0.0,
+        1.34,
+        0.0
+      ],
+      "frames": 5,
+      "status": "ongoing",
+      "elapsed_steps": 596,
+      "tcp_after": [
+        0.0726,
+        0.1508,
+        0.0463,
+        -3.1449,
+        -0.0118,
+        1.3618
+      ]
+    },
+    {
+      "action": [
+        0.075,
+        0.131,
+        0.032,
+        -3.1416,
+        0.0,
+        1.34,
+        0.0
+      ],
+      "frames": 6,
+      "status": "ongoing",
+      "elapsed_steps": 602,
+      "tcp_after": [
+        0.0743,
+        0.1481,
+        0.0391,
+        -3.1464,
+        -0.0114,
+        1.3594
+      ]
+    },
+    {
+      "action": [
+        0.085,
+        0.131,
+        0.041,
+        -3.1416,
+        0.0,
+        1.34,
+        0.0
+      ],
+      "frames": 9,
+      "status": "ongoing",
+      "elapsed_steps": 611,
+      "tcp_after": [
+        0.0833,
+        0.133,
+        0.0406,
+        -3.1419,
+        -0.0016,
+        1.3422
+      ]
+    },
+    {
+      "action": [
+        0.077,
+        0.105,
+        0.041,
+        -3.1416,
+        0.0,
+        1.34,
+        0.0
+      ],
+      "frames": 10,
+      "status": "success",
+      "elapsed_steps": 625,
+      "tcp_after": [
+        0.076,
+        0.1067,
+        0.0413,
+        -3.1414,
+        -0.001,
+        1.3409
+      ]
+    }
+  ],
+  "usage": {
+    "calls": 11,
+    "api_s": 202.13119792938232,
+    "retries": 0,
+    "input": 169686,
+    "cached": 148315,
+    "cache_write": 21338,
+    "output": 3798,
+    "reasoning": 3015,
+    "api_model": "gpt-6-astra"
+  },
+  "cost_usd": 0.6053,
+  "episode_s": 205.9
+}

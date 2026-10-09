@@ -1,0 +1,229 @@
+{
+  "task": "SwingXtimes",
+  "episode": 8,
+  "dataset": "val",
+  "goal": "pick up the green cube, move it to the top of the right-side target, then move it to the top of the left-side target, repeating this back-and-forth motion two times, finally press the button to stop",
+  "status": "success",
+  "success": true,
+  "end_reason": "env:success",
+  "harness_version": "waypoint_v3",
+  "api_model": "gpt-6-astra",
+  "started_utc": "2026-10-09T00:52:43+00:00",
+  "finished_utc": "2026-10-09T00:54:04+00:00",
+  "model_calls": 9,
+  "waypoints_executed": 9,
+  "sim_elapsed_steps": 352,
+  "steps": [
+    {
+      "action": [
+        -0.282,
+        0.012,
+        0.13,
+        -3.1416,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frames": 65,
+      "status": "ongoing",
+      "elapsed_steps": 66,
+      "tcp_after": [
+        -0.2948,
+        0.0111,
+        0.1325,
+        -3.1423,
+        0.0003,
+        -0.0004
+      ]
+    },
+    {
+      "action": [
+        -0.284,
+        0.01,
+        0.018,
+        -3.1416,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "frames": 41,
+      "status": "ongoing",
+      "elapsed_steps": 107,
+      "tcp_after": [
+        -0.288,
+        0.0099,
+        0.0161,
+        -3.1417,
+        0.0007,
+        -0.0001
+      ]
+    },
+    {
+      "action": [
+        -0.145,
+        -0.15,
+        0.075,
+        -3.1416,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frames": 32,
+      "status": "ongoing",
+      "elapsed_steps": 139,
+      "tcp_after": [
+        -0.1518,
+        -0.1547,
+        0.0781,
+        -3.1419,
+        -0.0002,
+        -0.0016
+      ]
+    },
+    {
+      "action": [
+        -0.096,
+        0.236,
+        0.075,
+        -3.1416,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frames": 39,
+      "status": "ongoing",
+      "elapsed_steps": 178,
+      "tcp_after": [
+        -0.1112,
+        0.2362,
+        0.075,
+        -3.1413,
+        -0.0003,
+        0.0008
+      ]
+    },
+    {
+      "action": [
+        -0.145,
+        -0.15,
+        0.075,
+        -3.1416,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frames": 39,
+      "status": "ongoing",
+      "elapsed_steps": 217,
+      "tcp_after": [
+        -0.1587,
+        -0.145,
+        0.0751,
+        -3.1413,
+        -0.0003,
+        -0.0036
+      ]
+    },
+    {
+      "action": [
+        -0.096,
+        0.236,
+        0.075,
+        -3.1416,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frames": 39,
+      "status": "ongoing",
+      "elapsed_steps": 256,
+      "tcp_after": [
+        -0.111,
+        0.236,
+        0.0749,
+        -3.1407,
+        -0.0004,
+        -0.0014
+      ]
+    },
+    {
+      "action": [
+        -0.101,
+        0.236,
+        0.019,
+        -3.1416,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frames": 22,
+      "status": "ongoing",
+      "elapsed_steps": 278,
+      "tcp_after": [
+        -0.1037,
+        0.234,
+        0.0202,
+        -3.1426,
+        0.0021,
+        -0.0009
+      ]
+    },
+    {
+      "action": [
+        -0.225,
+        0.14,
+        0.12,
+        -3.1416,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "frames": 39,
+      "status": "ongoing",
+      "elapsed_steps": 317,
+      "tcp_after": [
+        -0.2268,
+        0.1391,
+        0.1132,
+        -3.1468,
+        0.0003,
+        -0.0022
+      ]
+    },
+    {
+      "action": [
+        -0.234,
+        0.143,
+        0.012,
+        -3.1416,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frames": 26,
+      "status": "success",
+      "elapsed_steps": 352,
+      "tcp_after": [
+        -0.233,
+        0.1447,
+        0.0247,
+        -3.1341,
+        -0.0237,
+        0.0081
+      ]
+    }
+  ],
+  "usage": {
+    "calls": 9,
+    "api_s": 76.02788734436035,
+    "retries": 0,
+    "input": 72523,
+    "cached": 58615,
+    "cache_write": 13881,
+    "output": 1137,
+    "reasoning": 546,
+    "api_model": "gpt-6-astra"
+  },
+  "cost_usd": 0.2892,
+  "episode_s": 79.4
+}

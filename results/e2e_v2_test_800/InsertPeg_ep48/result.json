@@ -1,0 +1,175 @@
+{
+  "task": "InsertPeg",
+  "episode": 48,
+  "dataset": "test",
+  "goal": "watch the video carefully, then grasp the same end of the same peg you've picked before and insert it into the same side of the box",
+  "status": "error",
+  "success": false,
+  "end_reason": "env_error",
+  "harness_version": "waypoint_v2",
+  "api_model": "gpt-6-astra",
+  "started_utc": "2026-10-08T22:16:57+00:00",
+  "finished_utc": "2026-10-08T22:21:24+00:00",
+  "model_calls": 7,
+  "waypoints_executed": 6,
+  "sim_elapsed_steps": 608,
+  "steps": [
+    {
+      "action": [
+        -0.002,
+        0.205,
+        0.15,
+        -3.1416,
+        0.0,
+        -0.6,
+        1.0
+      ],
+      "frames": 52,
+      "status": "ongoing",
+      "elapsed_steps": 442,
+      "tcp_after": [
+        -0.0185,
+        0.2104,
+        0.149,
+        -3.1407,
+        0.0031,
+        -0.5939
+      ]
+    },
+    {
+      "action": [
+        -0.003,
+        0.209,
+        0.012,
+        -3.1416,
+        0.0,
+        -0.6,
+        0.0
+      ],
+      "frames": 23,
+      "status": "ongoing",
+      "elapsed_steps": 465,
+      "tcp_after": [
+        -0.0087,
+        0.2075,
+        0.0126,
+        -3.1445,
+        0.0014,
+        -0.5987
+      ]
+    },
+    {
+      "action": [
+        -0.004,
+        0.209,
+        0.012,
+        -3.1416,
+        0.0,
+        -0.6,
+        -1.0
+      ],
+      "frames": 12,
+      "status": "ongoing",
+      "elapsed_steps": 477,
+      "tcp_after": [
+        -0.0054,
+        0.2092,
+        0.0105,
+        -3.1446,
+        0.0015,
+        -0.5988
+      ]
+    },
+    {
+      "action": [
+        -0.005,
+        0.209,
+        0.19,
+        -3.1416,
+        0.0,
+        -0.6,
+        0.0
+      ],
+      "frames": 25,
+      "status": "ongoing",
+      "elapsed_steps": 502,
+      "tcp_after": [
+        -0.0101,
+        0.2087,
+        0.1852,
+        -3.1424,
+        -0.0009,
+        -0.5973
+      ]
+    },
+    {
+      "action": [
+        0.025,
+        0.22,
+        0.19,
+        1.5708,
+        0.0,
+        1.5708,
+        0.0
+      ],
+      "frames": 76,
+      "status": "ongoing",
+      "elapsed_steps": 578,
+      "tcp_after": [
+        0.0171,
+        0.2271,
+        0.1836,
+        -4.6809,
+        -0.0098,
+        1.5838
+      ]
+    },
+    {
+      "action": [
+        0.025,
+        0.19,
+        0.035,
+        1.5708,
+        0.0,
+        1.5708,
+        0.0
+      ],
+      "frames": 30,
+      "status": "ongoing",
+      "elapsed_steps": 608,
+      "tcp_after": [
+        0.0566,
+        0.2101,
+        0.1179,
+        -4.8506,
+        -0.0779,
+        1.5825
+      ]
+    },
+    {
+      "action": [
+        0.025,
+        0.21,
+        0.18,
+        -1.5708,
+        0.0,
+        1.5708,
+        0.0
+      ],
+      "error": "FailAwareWrapper caught specific exception: Both screw and RRTStar planning exhausted."
+    }
+  ],
+  "usage": {
+    "calls": 7,
+    "api_s": 97.42291140556335,
+    "retries": 0,
+    "input": 88881,
+    "cached": 70953,
+    "cache_write": 17907,
+    "output": 2403,
+    "reasoning": 1924,
+    "api_model": "gpt-6-astra"
+  },
+  "cost_usd": 0.4152,
+  "episode_s": 153.6
+}

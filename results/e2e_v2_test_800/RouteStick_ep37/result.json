@@ -1,0 +1,229 @@
+{
+  "task": "RouteStick",
+  "episode": 37,
+  "dataset": "test",
+  "goal": "watch the video carefully, then use the stick attached to the robot to navigate around the sticks on the table, following the same path",
+  "status": "success",
+  "success": true,
+  "end_reason": "env:success",
+  "harness_version": "waypoint_v2",
+  "api_model": "gpt-6-astra",
+  "started_utc": "2026-10-08T21:58:44+00:00",
+  "finished_utc": "2026-10-08T22:00:48+00:00",
+  "model_calls": 9,
+  "waypoints_executed": 9,
+  "sim_elapsed_steps": 721,
+  "steps": [
+    {
+      "action": [
+        -0.065,
+        -0.252,
+        0.0701,
+        -3.1416,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frames": 27,
+      "status": "ongoing",
+      "elapsed_steps": 502,
+      "tcp_after": [
+        -0.0673,
+        -0.2488,
+        0.0692,
+        -3.1396,
+        -0.0006,
+        0.0017
+      ]
+    },
+    {
+      "action": [
+        -0.05,
+        -0.195,
+        0.0701,
+        -3.1416,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frames": 13,
+      "status": "ongoing",
+      "elapsed_steps": 515,
+      "tcp_after": [
+        -0.0518,
+        -0.1957,
+        0.0699,
+        -3.1391,
+        -0.0008,
+        0.0057
+      ]
+    },
+    {
+      "action": [
+        -0.135,
+        -0.123,
+        0.0701,
+        -3.1416,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frames": 31,
+      "status": "ongoing",
+      "elapsed_steps": 546,
+      "tcp_after": [
+        -0.1353,
+        -0.1242,
+        0.0692,
+        -3.14,
+        -0.0002,
+        0.0029
+      ]
+    },
+    {
+      "action": [
+        -0.235,
+        -0.115,
+        0.0701,
+        -3.1416,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frames": 32,
+      "status": "ongoing",
+      "elapsed_steps": 578,
+      "tcp_after": [
+        -0.2357,
+        -0.1112,
+        0.0685,
+        -3.1366,
+        -0.0008,
+        0.0043
+      ]
+    },
+    {
+      "action": [
+        -0.235,
+        -0.035,
+        0.0701,
+        -3.1416,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frames": 21,
+      "status": "ongoing",
+      "elapsed_steps": 599,
+      "tcp_after": [
+        -0.2376,
+        -0.0377,
+        0.0701,
+        -3.1428,
+        -0.0004,
+        0.0027
+      ]
+    },
+    {
+      "action": [
+        -0.108,
+        0.021,
+        0.0701,
+        -3.1416,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frames": 34,
+      "status": "ongoing",
+      "elapsed_steps": 633,
+      "tcp_after": [
+        -0.1115,
+        0.0267,
+        0.0685,
+        -3.1382,
+        -0.0005,
+        0.0043
+      ]
+    },
+    {
+      "action": [
+        -0.202,
+        0.065,
+        0.0701,
+        -3.1416,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frames": 26,
+      "status": "ongoing",
+      "elapsed_steps": 659,
+      "tcp_after": [
+        -0.2011,
+        0.0624,
+        0.0691,
+        -3.1422,
+        0.0001,
+        0.0022
+      ]
+    },
+    {
+      "action": [
+        -0.202,
+        0.125,
+        0.0701,
+        -3.1416,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frames": 17,
+      "status": "ongoing",
+      "elapsed_steps": 676,
+      "tcp_after": [
+        -0.2047,
+        0.1244,
+        0.07,
+        -3.1415,
+        0.0,
+        0.0053
+      ]
+    },
+    {
+      "action": [
+        -0.075,
+        0.163,
+        0.0701,
+        -3.1416,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frames": 37,
+      "status": "success",
+      "elapsed_steps": 721,
+      "tcp_after": [
+        -0.0775,
+        0.1643,
+        0.0686,
+        -3.1423,
+        -0.0003,
+        0.0047
+      ]
+    }
+  ],
+  "usage": {
+    "calls": 9,
+    "api_s": 111.49398708343506,
+    "retries": 0,
+    "input": 93741,
+    "cached": 78456,
+    "cache_write": 15258,
+    "output": 1648,
+    "reasoning": 1031,
+    "api_model": "gpt-6-astra"
+  },
+  "cost_usd": 0.3519,
+  "episode_s": 115.2
+}

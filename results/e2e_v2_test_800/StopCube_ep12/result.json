@@ -1,0 +1,119 @@
+{
+  "task": "StopCube",
+  "episode": 12,
+  "dataset": "test",
+  "goal": "press the button to stop the cube just as it reaches the target for the second time",
+  "status": "fail",
+  "success": false,
+  "end_reason": "env:fail",
+  "harness_version": "waypoint_v2",
+  "api_model": "gpt-6-astra",
+  "started_utc": "2026-10-08T19:53:03+00:00",
+  "finished_utc": "2026-10-08T19:53:36+00:00",
+  "model_calls": 4,
+  "waypoints_executed": 4,
+  "sim_elapsed_steps": 103,
+  "steps": [
+    {
+      "action": [
+        -0.175,
+        0.02,
+        0.075,
+        -3.1416,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "frames": 58,
+      "status": "ongoing",
+      "elapsed_steps": 59,
+      "tcp_after": [
+        -0.1906,
+        0.0195,
+        0.081,
+        -3.1407,
+        0.0019,
+        0.0002
+      ]
+    },
+    {
+      "action": [
+        -0.175,
+        0.02,
+        0.045,
+        -3.1416,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frames": 16,
+      "status": "ongoing",
+      "elapsed_steps": 75,
+      "tcp_after": [
+        -0.1771,
+        0.0199,
+        0.0448,
+        -3.1408,
+        0.003,
+        0.0002
+      ]
+    },
+    {
+      "action": [
+        -0.175,
+        0.02,
+        0.07,
+        -3.1416,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frames": 11,
+      "status": "ongoing",
+      "elapsed_steps": 86,
+      "tcp_after": [
+        -0.1753,
+        0.02,
+        0.0666,
+        -3.1408,
+        0.0017,
+        0.0003
+      ]
+    },
+    {
+      "action": [
+        -0.175,
+        0.02,
+        0.03,
+        -3.1416,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frames": 14,
+      "status": "fail",
+      "elapsed_steps": 103,
+      "tcp_after": [
+        -0.1757,
+        0.0201,
+        0.0305,
+        -3.1408,
+        0.0004,
+        0.0005
+      ]
+    }
+  ],
+  "usage": {
+    "calls": 4,
+    "api_s": 30.56648302078247,
+    "retries": 0,
+    "input": 14093,
+    "cached": 8859,
+    "cache_write": 5222,
+    "output": 726,
+    "reasoning": 444,
+    "api_model": "gpt-6-astra"
+  },
+  "cost_usd": 0.1106,
+  "episode_s": 31.8
+}

@@ -1,0 +1,123 @@
+{
+  "task": "VideoPlaceOrder",
+  "episode": 46,
+  "dataset": "test",
+  "goal": "watch the video carefully, then place the red cube on the second target it was previously placed on",
+  "status": "declared_complete",
+  "success": false,
+  "end_reason": "model_answer:declared_complete",
+  "harness_version": "waypoint_v2",
+  "api_model": "gpt-6-astra",
+  "started_utc": "2026-10-08T21:34:28+00:00",
+  "finished_utc": "2026-10-08T21:37:43+00:00",
+  "model_calls": 5,
+  "waypoints_executed": 4,
+  "sim_elapsed_steps": 1296,
+  "steps": [
+    {
+      "action": [
+        -0.101,
+        0.0,
+        0.018,
+        -3.1416,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "frames": 58,
+      "status": "ongoing",
+      "elapsed_steps": 1221,
+      "tcp_after": [
+        -0.1196,
+        -0.0,
+        0.0221,
+        -3.1416,
+        0.0027,
+        -0.0001
+      ]
+    },
+    {
+      "action": [
+        -0.088,
+        -0.005,
+        0.055,
+        -3.1416,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frames": 20,
+      "status": "ongoing",
+      "elapsed_steps": 1241,
+      "tcp_after": [
+        -0.0902,
+        -0.005,
+        0.0535,
+        -3.1416,
+        0.0007,
+        -0.0004
+      ]
+    },
+    {
+      "action": [
+        -0.065,
+        0.004,
+        0.015,
+        -3.1416,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "frames": 22,
+      "status": "ongoing",
+      "elapsed_steps": 1263,
+      "tcp_after": [
+        -0.0682,
+        0.0037,
+        0.0148,
+        -3.1414,
+        0.0025,
+        -0.0004
+      ]
+    },
+    {
+      "action": [
+        -0.138,
+        -0.164,
+        0.026,
+        -3.1416,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frames": 33,
+      "status": "ongoing",
+      "elapsed_steps": 1296,
+      "tcp_after": [
+        -0.1439,
+        -0.1616,
+        0.0244,
+        -3.1416,
+        0.0032,
+        -0.0035
+      ]
+    },
+    {
+      "answer": "{\"description\":\"The red cube has been released on the upper-left target beside the blue cube, matching its second placement in the video.\",\"waypoint\":null,\"gripper\":0}",
+      "invalid_kind": "declared_complete"
+    }
+  ],
+  "usage": {
+    "calls": 5,
+    "api_s": 182.46379590034485,
+    "retries": 0,
+    "input": 172425,
+    "cached": 135220,
+    "cache_write": 37190,
+    "output": 840,
+    "reasoning": 517,
+    "api_model": "gpt-6-astra"
+  },
+  "cost_usd": 0.6422,
+  "episode_s": 186.5
+}

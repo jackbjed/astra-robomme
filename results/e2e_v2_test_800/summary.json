@@ -1,0 +1,89 @@
+{
+  "scheduled": 800,
+  "unscored": [],
+  "per_task": {
+    "PickXtimes": {
+      "success": 50,
+      "scheduled": 50,
+      "unscored": 0
+    },
+    "StopCube": {
+      "success": 28,
+      "scheduled": 50,
+      "unscored": 0
+    },
+    "SwingXtimes": {
+      "success": 0,
+      "scheduled": 50,
+      "unscored": 0
+    },
+    "BinFill": {
+      "success": 50,
+      "scheduled": 50,
+      "unscored": 0
+    },
+    "VideoUnmaskSwap": {
+      "success": 49,
+      "scheduled": 50,
+      "unscored": 0
+    },
+    "VideoUnmask": {
+      "success": 50,
+      "scheduled": 50,
+      "unscored": 0
+    },
+    "ButtonUnmaskSwap": {
+      "success": 49,
+      "scheduled": 50,
+      "unscored": 0
+    },
+    "ButtonUnmask": {
+      "success": 50,
+      "scheduled": 50,
+      "unscored": 0
+    },
+    "VideoRepick": {
+      "success": 50,
+      "scheduled": 50,
+      "unscored": 0
+    },
+    "VideoPlaceButton": {
+      "success": 50,
+      "scheduled": 50,
+      "unscored": 0
+    },
+    "VideoPlaceOrder": {
+      "success": 49,
+      "scheduled": 50,
+      "unscored": 0
+    },
+    "PickHighlight": {
+      "success": 49,
+      "scheduled": 50,
+      "unscored": 0
+    },
+    "InsertPeg": {
+      "success": 49,
+      "scheduled": 50,
+      "unscored": 0
+    },
+    "MoveCube": {
+      "success": 27,
+      "scheduled": 50,
+      "unscored": 0
+    },
+    "PatternLock": {
+      "success": 50,
+      "scheduled": 50,
+      "unscored": 0
+    },
+    "RouteStick": {
+      "success": 49,
+      "scheduled": 50,
+      "unscored": 0
+    }
+  },
+  "api_models": [
+    "gpt-6-astra"
+  ]
+}

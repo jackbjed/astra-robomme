@@ -1,0 +1,14 @@
+{
+  "scheduled": 10,
+  "unscored": [],
+  "per_task": {
+    "SwingXtimes": {
+      "success": 9,
+      "scheduled": 10,
+      "unscored": 0
+    }
+  },
+  "api_models": [
+    "gpt-6-astra"
+  ]
+}

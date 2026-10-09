@@ -1,0 +1,119 @@
+{
+  "task": "VideoUnmask",
+  "episode": 24,
+  "dataset": "test",
+  "goal": "watch the video carefully, then pick up the container hiding the blue cube",
+  "status": "success",
+  "success": true,
+  "end_reason": "env:success",
+  "harness_version": "waypoint_v2",
+  "api_model": "gpt-6-astra",
+  "started_utc": "2026-10-08T21:19:49+00:00",
+  "finished_utc": "2026-10-08T21:20:26+00:00",
+  "model_calls": 4,
+  "waypoints_executed": 4,
+  "sim_elapsed_steps": 218,
+  "steps": [
+    {
+      "action": [
+        -0.06,
+        0.06,
+        0.18,
+        -3.1416,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frames": 47,
+      "status": "ongoing",
+      "elapsed_steps": 114,
+      "tcp_after": [
+        -0.0729,
+        0.0595,
+        0.1829,
+        -3.1402,
+        0.0026,
+        0.001
+      ]
+    },
+    {
+      "action": [
+        -0.06,
+        0.06,
+        0.028,
+        -3.1416,
+        0.0,
+        0.95,
+        1.0
+      ],
+      "frames": 50,
+      "status": "ongoing",
+      "elapsed_steps": 164,
+      "tcp_after": [
+        -0.0556,
+        0.0594,
+        0.0359,
+        -3.1513,
+        -0.0153,
+        0.9541
+      ]
+    },
+    {
+      "action": [
+        -0.059,
+        0.06,
+        0.031,
+        -3.1416,
+        0.0,
+        0.95,
+        -1.0
+      ],
+      "frames": 10,
+      "status": "ongoing",
+      "elapsed_steps": 174,
+      "tcp_after": [
+        -0.0551,
+        0.0595,
+        0.036,
+        -3.151,
+        -0.0099,
+        0.9509
+      ]
+    },
+    {
+      "action": [
+        -0.055,
+        0.06,
+        0.19,
+        -3.1416,
+        0.0,
+        0.95,
+        0.0
+      ],
+      "frames": 30,
+      "status": "success",
+      "elapsed_steps": 218,
+      "tcp_after": [
+        -0.061,
+        0.0607,
+        0.1891,
+        -3.1388,
+        0.0007,
+        0.9527
+      ]
+    }
+  ],
+  "usage": {
+    "calls": 4,
+    "api_s": 34.33338451385498,
+    "retries": 0,
+    "input": 22035,
+    "cached": 14472,
+    "cache_write": 7551,
+    "output": 615,
+    "reasoning": 358,
+    "api_model": "gpt-6-astra"
+  },
+  "cost_usd": 0.1397,
+  "episode_s": 35.9
+}

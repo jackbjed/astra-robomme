@@ -1,0 +1,123 @@
+{
+  "task": "PickHighlight",
+  "episode": 2,
+  "dataset": "test",
+  "goal": "first press the button, then pick up all cubes that have been highlighteted with white areas on the table",
+  "status": "unparseable",
+  "success": false,
+  "end_reason": "model_answer:unparseable",
+  "harness_version": "waypoint_v2",
+  "api_model": "gpt-6-astra",
+  "started_utc": "2026-10-08T21:47:13+00:00",
+  "finished_utc": "2026-10-08T21:47:49+00:00",
+  "model_calls": 5,
+  "waypoints_executed": 4,
+  "sim_elapsed_steps": 129,
+  "steps": [
+    {
+      "action": [
+        -0.165,
+        -0.11,
+        0.09,
+        -3.1416,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "frames": 59,
+      "status": "ongoing",
+      "elapsed_steps": 60,
+      "tcp_after": [
+        -0.181,
+        -0.1083,
+        0.0933,
+        -3.1456,
+        0.0021,
+        -0.0013
+      ]
+    },
+    {
+      "action": [
+        -0.164,
+        -0.112,
+        0.012,
+        -3.1416,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frames": 22,
+      "status": "ongoing",
+      "elapsed_steps": 82,
+      "tcp_after": [
+        -0.1678,
+        -0.1143,
+        0.0245,
+        -3.1461,
+        -0.0098,
+        -0.0075
+      ]
+    },
+    {
+      "action": [
+        -0.164,
+        -0.112,
+        0.003,
+        -3.1416,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frames": 11,
+      "status": "ongoing",
+      "elapsed_steps": 93,
+      "tcp_after": [
+        -0.1675,
+        -0.1145,
+        0.0243,
+        -3.1405,
+        -0.0128,
+        -0.01
+      ]
+    },
+    {
+      "action": [
+        -0.115,
+        0.036,
+        0.105,
+        -3.1416,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frames": 36,
+      "status": "ongoing",
+      "elapsed_steps": 129,
+      "tcp_after": [
+        -0.1201,
+        0.0387,
+        0.1066,
+        -3.1449,
+        -0.001,
+        0.0011
+      ]
+    },
+    {
+      "answer": "{\"description\":\"The highlights have disappeared, but I recorded both red cubes as targets. I will lower the open gripper around the red cube beside the button.\",\"waypoint\":[-0. twelve,0.034,0.015,-3.1416,0,0],\"gripper\":0}",
+      "invalid_kind": "unparseable"
+    }
+  ],
+  "usage": {
+    "calls": 5,
+    "api_s": 32.33738136291504,
+    "retries": 0,
+    "input": 20998,
+    "cached": 14235,
+    "cache_write": 6748,
+    "output": 679,
+    "reasoning": 355,
+    "api_model": "gpt-6-astra"
+  },
+  "cost_usd": 0.1327,
+  "episode_s": 34.1
+}

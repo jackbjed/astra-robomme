@@ -1,0 +1,229 @@
+{
+  "task": "VideoUnmaskSwap",
+  "episode": 43,
+  "dataset": "test",
+  "goal": "watch the video carefully, then pick up the container hiding the green cube, finally pick up another container hiding the blue cube",
+  "status": "success",
+  "success": true,
+  "end_reason": "env:success",
+  "harness_version": "waypoint_v2",
+  "api_model": "gpt-6-astra",
+  "started_utc": "2026-10-08T22:57:34+00:00",
+  "finished_utc": "2026-10-08T22:59:39+00:00",
+  "model_calls": 9,
+  "waypoints_executed": 9,
+  "sim_elapsed_steps": 488,
+  "steps": [
+    {
+      "action": [
+        -0.065,
+        -0.032,
+        0.16,
+        -3.1416,
+        0.0,
+        -0.35,
+        1.0
+      ],
+      "frames": 48,
+      "status": "ongoing",
+      "elapsed_steps": 217,
+      "tcp_after": [
+        -0.0775,
+        -0.0299,
+        0.1631,
+        -3.1434,
+        0.0021,
+        -0.3478
+      ]
+    },
+    {
+      "action": [
+        -0.06,
+        -0.03,
+        0.025,
+        -3.1416,
+        0.0,
+        -0.35,
+        -1.0
+      ],
+      "frames": 31,
+      "status": "ongoing",
+      "elapsed_steps": 248,
+      "tcp_after": [
+        -0.0558,
+        -0.0296,
+        0.036,
+        -3.1366,
+        -0.0206,
+        -0.3488
+      ]
+    },
+    {
+      "action": [
+        -0.056,
+        -0.03,
+        0.19,
+        -3.1416,
+        0.0,
+        -0.35,
+        0.0
+      ],
+      "frames": 26,
+      "status": "ongoing",
+      "elapsed_steps": 274,
+      "tcp_after": [
+        -0.0612,
+        -0.0298,
+        0.1874,
+        -3.141,
+        -0.0016,
+        -0.3504
+      ]
+    },
+    {
+      "action": [
+        -0.14,
+        -0.23,
+        0.16,
+        -3.1416,
+        0.0,
+        -0.35,
+        0.0
+      ],
+      "frames": 27,
+      "status": "ongoing",
+      "elapsed_steps": 301,
+      "tcp_after": [
+        -0.1473,
+        -0.225,
+        0.161,
+        -3.1407,
+        -0.0002,
+        -0.3556
+      ]
+    },
+    {
+      "action": [
+        -0.14,
+        -0.23,
+        0.037,
+        -3.1416,
+        0.0,
+        -0.35,
+        1.0
+      ],
+      "frames": 30,
+      "status": "ongoing",
+      "elapsed_steps": 331,
+      "tcp_after": [
+        -0.1454,
+        -0.2286,
+        0.0363,
+        -3.1428,
+        0.0041,
+        -0.3521
+      ]
+    },
+    {
+      "action": [
+        -0.14,
+        -0.23,
+        0.17,
+        -3.1416,
+        0.0,
+        0.5,
+        1.0
+      ],
+      "frames": 42,
+      "status": "ongoing",
+      "elapsed_steps": 373,
+      "tcp_after": [
+        -0.1419,
+        -0.2321,
+        0.1695,
+        -3.1496,
+        0.0023,
+        0.4918
+      ]
+    },
+    {
+      "action": [
+        0.15,
+        0.065,
+        0.16,
+        -3.1416,
+        0.0,
+        0.5,
+        1.0
+      ],
+      "frames": 57,
+      "status": "ongoing",
+      "elapsed_steps": 430,
+      "tcp_after": [
+        0.14,
+        0.0739,
+        0.1577,
+        -3.1395,
+        -0.0021,
+        0.4959
+      ]
+    },
+    {
+      "action": [
+        0.15,
+        0.065,
+        0.03,
+        -3.1416,
+        0.0,
+        0.5,
+        -1.0
+      ],
+      "frames": 26,
+      "status": "ongoing",
+      "elapsed_steps": 456,
+      "tcp_after": [
+        0.1467,
+        0.0615,
+        0.0359,
+        -3.1415,
+        -0.0044,
+        0.4964
+      ]
+    },
+    {
+      "action": [
+        0.15,
+        0.065,
+        0.2,
+        -3.1416,
+        0.0,
+        0.5,
+        0.0
+      ],
+      "frames": 23,
+      "status": "success",
+      "elapsed_steps": 488,
+      "tcp_after": [
+        0.1443,
+        0.065,
+        0.1987,
+        -3.1413,
+        0.001,
+        0.5009
+      ]
+    }
+  ],
+  "usage": {
+    "calls": 9,
+    "api_s": 118.7972264289856,
+    "retries": 0,
+    "input": 106508,
+    "cached": 88711,
+    "cache_write": 17770,
+    "output": 1350,
+    "reasoning": 747,
+    "api_model": "gpt-6-astra"
+  },
+  "cost_usd": 0.3786,
+  "episode_s": 122.3
+}
