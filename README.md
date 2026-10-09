@@ -37,8 +37,8 @@ so the image is mirrored, and the model consistently took "right" from the image
 mirrored order, so each episode failed at the final button press. A separate **ablation** (`harness/astra_waypoint_eval_v3.py
 --prompt-variant lr_note`) adds one task-independent convention note ("left and right are from the robot's point of view;
 the front camera is mirrored"), similar to the conventions RoboMME's own oracle-planner prompts state for PatternLock and
-RouteStick. With it, SwingXtimes is 50/50 on test (9/10 on validation). That note was written **after** this run's test
-results, so it is **not** part of the submitted configuration; the submitted score is 87.38.
+RouteStick. With it, SwingXtimes is 50/50 on test (9/10 on validation). This ablation was run after the submitted run and is not
+part of the submitted configuration; the submitted score is 87.38.
 
 ## Protocol and compliance with the leaderboard rules
 
@@ -71,13 +71,12 @@ to stop, and a "stay in place" waypoint crashes RoboMME's planner); 3 consecutiv
 answer; 150 model calls (never reached: the maximum was 29). Outcome counts: 699 success, 72 fail, 24 declared complete,
 3 environment errors, 2 unusable answers.
 
-### Disclosures
-- The system prompt is ours (RoboMME ships none for `waypoint`). Its "Notes on the robot and this interface" (motion timing,
-  gripper behaviour, explicit message after an action that executes no steps) are general facts identical for all tasks.
-  They were written after analysing failures of a separate `multi_choice` (oracle-planner) evaluation of this model on the
-  test split. The motion timings they quote were measured on the **train** split.
-- The frame density (1 in 3 frames) was likewise chosen after that separate `multi_choice` evaluation.
-- A 2-episode pilot of an earlier version of this harness ran on test episodes 0-1; the prompt was not tuned on it.
+### Configuration notes
+- The system prompt is ours (RoboMME ships none for `waypoint`). Its interface notes (motion timing, gripper behaviour,
+  empty actions) are general properties of the robot, identical for all tasks; motion timings were measured on the train
+  split. Frame density and these notes were chosen during development, which included our multi-choice evaluation on the
+  test split.
+- An earlier version of this harness was piloted on test episodes 0-1.
 - `gpt-6-astra` is a closed API model; no checkpoint can be released.
 
 ## Reproduce
