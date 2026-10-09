@@ -71,8 +71,8 @@ def main():
 A general-purpose vision-language model (OpenAI `{', '.join(models)}`, accessed through the API) used directly as the
 policy: at every step it receives the task goal, the camera frames and the robot's own state, and outputs the next
 end-effector waypoint (position, orientation) and gripper command. RoboMME's motion planner executes each waypoint.
-Memory is the model's own context: the whole episode (demonstration video, all execution frames and its previous
-answers) stays in one conversation. No training or fine-tuning on RoboMME.
+Memory is the model's own context: all sampled observations and previous model responses within the episode stay
+in one conversation. No training or fine-tuning on RoboMME.
 
 ## Results
 
@@ -108,7 +108,7 @@ answers) stays in one conversation. No training or fine-tuning on RoboMME.
   the environment judges success; {cfg['max_consecutive_noops']} consecutive actions that execute no steps; an unusable answer;
   {cfg['max_model_calls']} model calls (in practice the 1300-step limit binds first). Environment errors (e.g. unreachable poses)
   count as failures, as in `evaluation.py`.
-- No training data from RoboMME is used.
+- No RoboMME demonstrations were used for model training or fine-tuning.
 
 ### Released Checkpoints
 The model is a closed API model; no checkpoint can be released. Evaluation code, prompts, configuration and all

@@ -4,8 +4,8 @@ Evaluation code, prompts, configuration and per-episode logs for our [RoboMME](h
 leaderboard submission: OpenAI's `gpt-6-astra`, used through the API as the robot policy, with no training or fine-tuning on
 RoboMME. At every step the model receives the task goal, camera frames and the robot's own state, and outputs the next
 end-effector waypoint (position, orientation) and gripper command. RoboMME's motion planner only executes each waypoint.
-Memory is the model's own context: the whole episode (demonstration video, all execution frames and the model's previous
-answers) stays in one conversation.
+Memory is the model's own context: all sampled observations and previous model responses within the episode stay
+in one conversation.
 
 ## Results (test split, 50 episodes per task, one run)
 
